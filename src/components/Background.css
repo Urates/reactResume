@@ -1,0 +1,55 @@
+.Background-container
+{
+    margin: auto;
+    background-color: black;
+    width: 96%;
+    text-align:  center;
+    justify-content: center;
+    overflow: hidden;
+}
+.Background-content
+{
+    background-color: black;
+}
+.Background-content .nav
+{
+    display: flex;
+    text-align: center;
+}
+.content-body
+{
+    background-color: white;
+    margin-bottom: 1em;
+    height: 5em;
+    color: black;
+    position: relative;
+    text-align: center;
+    margin: 0.1em;
+    font-size:smaller;
+}
+.Background-content a
+{
+    color: black;
+    margin: 0.1em;
+    padding: 0.5em;
+    background-color: grey;
+    text-decoration: none;
+    width: 100%;
+    font-size:smaller;
+}
+.Background-content a:hover
+{
+    color: rgb(124, 15, 15);
+    margin: 0.1em;
+    padding: 0.5em;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    width: 8vw;
+    font-size: small;
+    font-weight: bold;
+}
+p
+{
+    text-align: center;
+    color: white;
+}
