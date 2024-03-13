@@ -5,7 +5,7 @@
     width: 39em;
     text-align: center;
     align-items: center;
-    height: 25vh;
+    height: 20em;
     overflow: hidden;
     box-shadow: black 0.1em 0.1em 0.1em 0.1em;
 }
@@ -20,19 +20,9 @@
     text-align: left;
     margin: 1em;
 }
-.education-items
+.Education-container img
 {
-    display: flex;
-}
-.education-items span
-{
-    display: block;
-}
-.education-items span img
-{
-    width: 5em;
-    height: 5em;
-    border-radius: 3em;
-    z-index: 20;
-    display: flex;
+    width: 8em;
+    height: 8em;
+    margin: 1em;
 }

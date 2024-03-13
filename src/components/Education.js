@@ -9,12 +9,7 @@ function Education() {
     return (
       <div className="Education-container">
         <p className='p'>Education</p>
-          <div className='education-items'>
-            <img src={WSU} alt='Walter Sisulu University logo'/><p>Walter Sisulu University</p>
-            <img src={Wits} alt='Wits logo'/><p>Wits University</p>
-            <img src={Fullstack} alt='Full Stack software Dev icon'/><p>Software Development</p>
-            <img src={Shortcourses} alt='Shortcourses Icon'/><p>Shortcourses</p>
-          </div>
+        <img src={WSU} alt='WSU Logo'/>
       </div>
     );
   }

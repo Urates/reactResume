@@ -1,7 +1,7 @@
 .Background-container
 {
     margin: auto;
-    background-color: black;
+    background-color: rgb(128, 127, 127);
     width: 96%;
     text-align:  center;
     justify-content: center;
@@ -22,11 +22,16 @@
     background-color: white;
     margin-bottom: 1em;
     height: 8em;
-    color: black;
     position: relative;
     text-align: center;
     margin: 0.1em;
     font-size:smaller;
+}
+.content-body p
+{
+    color: black;
+    font-weight: bold;
+ 
 }
 .Background-content a
 {
