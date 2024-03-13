@@ -18,6 +18,7 @@
     position: fixed;
     top: 1em;
     border-radius: 15em;
+    overflow: hidden;
 }
 .topNav h1
 {
@@ -33,7 +34,7 @@
     color: white;
     position: absolute;
     top: 7em;
-    right: 1em;
+    right: 2em;
     
 }
 .Credentials a

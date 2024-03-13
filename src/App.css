@@ -27,6 +27,8 @@
 .Education
 {
   position: absolute;
-  right: 2vw;
+  right:0;
   top: 25em;
+  width: 40em;
+  z-index: -1;
 }
