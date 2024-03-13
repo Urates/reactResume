@@ -7,6 +7,7 @@
     align-items: center;
     height: 25vh;
     overflow: hidden;
+    box-shadow: black 0.1em 0.1em 0.1em 0.1em;
 }
 .Education-container .p
 {
@@ -33,4 +34,5 @@
     height: 5em;
     border-radius: 3em;
     z-index: 20;
+    display: flex;
 }

@@ -10,10 +10,10 @@ function Education() {
       <div className="Education-container">
         <p className='p'>Education</p>
           <div className='education-items'>
-            <span><img src={WSU} alt='Walter Sisulu University logo'/><p>Walter Sisulu University</p></span>
+            <img src={WSU} alt='Walter Sisulu University logo'/><p>Walter Sisulu University</p>
             <img src={Wits} alt='Wits logo'/><p>Wits University</p>
-            <span><img src={Fullstack} alt='Full Stack software Dev icon'/><p>Software Development</p></span>
-            <span><img src={Shortcourses} alt='Shortcourses Icon'/><p>Shortcourses</p></span>
+            <img src={Fullstack} alt='Full Stack software Dev icon'/><p>Software Development</p>
+            <img src={Shortcourses} alt='Shortcourses Icon'/><p>Shortcourses</p>
           </div>
       </div>
     );
