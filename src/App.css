@@ -5,27 +5,28 @@
 }
 .Nav
 {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   height: 18vh;
   top: 0;
+  z-index: 3;
 }
 .Body
 {
   position: relative;
-  top: 18vh;
+  top: 10.5em;
 }
 .Background
 {
     position: absolute;
     right: 1vw;
-    width: 49vw;
-    top: 18vh;
+    width: 40em;
+    top: 10.5em;
 }
 .Education
 {
   position: absolute;
   right: 2vw;
-  top: 40vh;
+  top: 25em;
 }

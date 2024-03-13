@@ -11,7 +11,7 @@ function Background() {
                 <a href=''>Efficient</a>
                 <a href=''>Professional</a>
                 <a href=''>Tech-enabled</a>
-                <a href=''>People-centered</a>
+                <a href=''>Selfless</a>
                 <a href=''>Self-sufficient</a>
             </div>
             <div className='content-body'>
