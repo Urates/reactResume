@@ -30,7 +30,9 @@
 .content-body p
 {
     color: black;
-    font-weight: bold;
+    position: absolute;
+    top: 0.4em;
+    margin: 0.4em;
  
 }
 .Background-content a
@@ -42,6 +44,7 @@
     text-decoration: none;
     width: 100%;
     font-size:smaller;
+    font-weight: bold;
 }
 .Background-content a:hover
 {
@@ -53,6 +56,10 @@
     width: 8vw;
     font-size: small;
     font-weight: bold;
+}
+.Background-container a:active
+{
+    background-color: white;
 }
 p
 {
