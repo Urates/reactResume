@@ -20,7 +20,7 @@ function Background(){
                 <a href='#' id='selfless' onClick={() => handleLinkClick('selfless')}>Selfless</a>
                 <a href='#' id='self-sufficient' onClick={() => handleLinkClick('self-sufficient')}>Self-sufficient</a>
             </div>
-            <div className='content-body'>
+            <div className='content-body' >
               {selectedLink === 'efficient' && <p>I am always drawn to the idea of achieving <b>much</b> with <b>less</b> effort. Every skill I acquire is stamped efficiency in it; if I cannot do it efficiently, I simply do not know it. In a world that has become so dependent on time it becomes extremely important to ensure that everything you do you mark TIME as the highest ghost worthy of all human respect.</p>}
               {selectedLink === 'professional' && <p>We coexist in this world; so much that the existence of the other needs to be structured so that it peacefully synchronises with the whole human system. This calls for the development of a standard to in the cohabitate the world and that standard is none other than professionalism which encourages respect for everyone.</p>}
               {selectedLink === 'tech-enabled' && <p>Tech is mostly, if not entirely, about efficiency and effectiveness. The initial goal of tech is to provide alternative and easier ways to lead our lives on this land. Most of my life is lead by technological operations in one way or another.</p>}

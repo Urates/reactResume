@@ -1,28 +1,24 @@
-.Education-container
-{
-    position: relative;
-    background-color: grey;
-    width: 39em;
+.education-container {
     text-align: center;
-    align-items: center;
-    height: 20em;
-    overflow: hidden;
-    box-shadow: black 0.1em 0.1em 0.1em 0.1em;
 }
-.Education-container .p
-{
-    padding: 0.5em;
-    background-color: rgb(0, 0, 0);
-    color: rgb(117, 117, 117);
-    position: relative;
-    top: -1.5em;
-    width: 20%;
-    text-align: left;
-    margin: 1em;
+
+.education-item {
+    display: block;
+
 }
-.Education-container img
+
+.education-item img {
+    width: 5em;
+    height: 5em;
+    margin-left: 1vw;
+    margin-bottom: 0.5em;
+}
+.education-item h3
 {
-    width: 8em;
-    height: 8em;
-    margin: 1em;
+    color:rgb(70, 193, 214);
+    margin: 0;
+}
+
+.education-item p {
+    display: block;
 }

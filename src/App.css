@@ -24,11 +24,11 @@
     width: 40em;
     top: 10.5em;
 }
-.Education
-{
+.Education {
   position: absolute;
-  right:0;
-  top: 25em;
-  width: 40em;
-  z-index: -1;
+  background-color: rgb(0, 0, 0);
+  right: 1vw;
+  top: 28vw;
+  width: 46vw;
+  height: 10em;
 }

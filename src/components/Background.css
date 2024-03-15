@@ -48,18 +48,13 @@
 }
 .Background-content a:hover
 {
-    color: rgb(124, 15, 15);
-    margin: 0.1em;
-    padding: 0.5em;
-    background-color: rgb(255, 255, 255);
-    text-decoration: none;
-    width: 8vw;
-    font-size: small;
-    font-weight: bold;
+    background-color: white;
+    color: brown;
 }
-.Background-container a:active
+.Background-content a:active
 {
     background-color: white;
+    color: brown;
 }
 p
 {
