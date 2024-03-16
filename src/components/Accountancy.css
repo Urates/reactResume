@@ -1,103 +1,71 @@
 .accountancy-container
 {
-    display: grid;
-    grid-template-columns: 500px 600px;
-    grid-template-rows: 300px 400px;
-    padding: 10px;
-    position:relative;
-    width: 100vw;
-    justify-content: center;
-}
-.accountancy-container .item1
-{
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    grid-row-end: 2;
-   }
-.item1 img
-{
-    width: 20em;
-    height: 20em;
+    margin: auto;
     position: relative;
-    left: 3em;
-    padding-bottom: 1em;
-
+    background-color: rgb(18, 43, 48);
+    height: 15em;
 }
-.accountancy-container .item2
+.accountancy-container ul
 {
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    padding-left: 30px;
-    border-left: black solid 1px;
-    border-width: 80%;
+    list-style-type: none;
+    padding: 0.5em;
 }
-.accountancy-container .item2 h2
+.accountancy-container li
 {
-    text-align: center;
+    display: block;
+}
+.accountancy-container p
+{
+    color: rgb(255, 255, 255);
+}
+.accountancy-container img
+{
+    width: 15em;
+    height: 15em;
+    margin-left: 2em;
+}
+.accountancy-container h2
+{
     color: black;
-}
-.accountancy-container .item3
-{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    background-color: rgb(201, 201, 201);
-}
-.item3 img
-{
-    width: 200px;
-    height: 200px;
-    margin-left: 30%;
-    margin-top: 10%;
-    border: black solid 1px;
-    border-radius: 15px;
-    padding: 5px;
-    box-shadow: black 5px 5px 5px 5px;
-}
-.item3 figcaption
-{
-    text-align: center;
-    padding-top: 10px;
-}
-.accountancy-container .item3 h2
-{
-    text-align: center;
-    color: black;
-}
-.accountancy-container .item4
-{
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    background-color: rgb(209, 209, 209);
-}
-.item4 img
-{
+    position: relative;
+    right: 1em;
+    margin-left: 30em;
+    text-align: right;
     width: 10em;
-    height: 10em;
-    margin-left: 30%;
-    margin-top: 10%;
-    border: black solid 1px;
-    border-radius: 15px;
-    padding: 5px;
-    box-shadow: black 5px 5px 5px 5px;
-}
-.item4 figcaption
-{
-    text-align: center;
-    padding-top: 10px;
-}
-.accountancy-container .item4 h2
-{
-    text-align: center;
-    color: black;
 }
 #career-info
 {
-    color: black;
+    position: relative;
+    right: 1em;
+    margin-left: 30em;
+    text-align: right;
+}
+.row
+{
+    display: flex;
+    padding: 8em;
+    border-bottom: rgb(18, 43, 48) solid 0.2em ;
+    border-radius: 2em;
+}
+.row .item
+{
+    height: 10em;
+    width: 10em;
+    background-color: rgba(115, 108, 108, 0.612);
+    margin-left: 1em;
+    margin-right:1em;
+    border-radius: 2em;
+    border: rgb(18, 43, 48) solid 0.2em;
+}
+.row p
+{
+    color: rgb(18, 43, 48);
+}
+ul h3
+{
+    width: 15em;
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: rgb(18, 43, 48);
 }
