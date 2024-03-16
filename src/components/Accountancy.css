@@ -1,0 +1,92 @@
+.accountancy-container
+{
+    display: grid;
+    grid-template-columns: 500px 600px;
+    grid-template-rows: 300px 400px;
+    padding: 10px;
+    position:relative;
+    width: 100vw;
+    justify-content: center;
+}
+.accountancy-container .item1
+{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+   }
+.item1 img
+{
+    width: 20em;
+    height: 20em;
+    position: relative;
+    left: 3em;
+    padding-bottom: 1em;
+
+}
+.accountancy-container .item2
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-left: 30px;
+    border-left: black solid 1px;
+    border-width: 80%;
+}
+.accountancy-container .item2 p,h2
+{
+    text-align: center;
+}
+.accountancy-container .item3
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: grey;
+}
+.item3 img
+{
+    width: 200px;
+    height: 200px;
+    margin-left: 30%;
+    margin-top: 10%;
+    border: black solid 1px;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: black 5px 5px 5px 5px;
+}
+.item3 figcaption
+{
+    text-align: center;
+    padding-top: 10px;
+}
+.accountancy-container .item4
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: grey;
+}
+.item4 img
+{
+    width: 200px;
+    height: 200px;
+    margin-left: 30%;
+    margin-top: 10%;
+    border: black solid 1px;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: black 5px 5px 5px 5px;
+}
+.item4 figcaption
+{
+    text-align: center;
+    padding-top: 10px;
+}
+#career-info
+{
+    color: black;
+}

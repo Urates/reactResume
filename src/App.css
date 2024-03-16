@@ -30,5 +30,23 @@
   right: 1vw;
   top: 28vw;
   width: 46vw;
-  height: 10em;
+  height: 20em;
+}
+.Accountancy
+{
+  position: relative;
+  top: 28em;
+  background-color: rgb(120, 134, 71);
+}
+.Entrepreneurship
+{
+  position: relative;
+  top: 31em;
+  background-color: rgb(79, 73, 97);
+}
+.SoftwareDev
+{
+  position: relative;
+  top: 60em;
+  background-color: rgb(8, 74, 28);
 }

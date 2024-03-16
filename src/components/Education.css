@@ -4,21 +4,30 @@
 
 .education-item {
     display: block;
-
+    overflow: hidden;
 }
 
 .education-item img {
-    width: 5em;
-    height: 5em;
+    width: 6em;
+    height: 6em;
     margin-left: 1vw;
     margin-bottom: 0.5em;
+    overflow: hidden;
 }
 .education-item h3
 {
     color:rgb(70, 193, 214);
     margin: 0;
+    font-size: xx-large;
 }
-
-.education-item p {
+p {
     display: block;
+    color: white;
+    margin: 1em;
+    text-align: left;
+}
+.strong-p
+{
+    font-size: large;
+    text-align: center;
 }

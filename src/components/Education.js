@@ -12,8 +12,8 @@ function Education() {
       <div className="education-item">
         <img src={WSU} alt='WSU Logo' />
         <h3>Walter Sisulu University</h3>
-        <p><b>Bachelor of Commerce in Accounting </b></p>
-        <>As soon as I exceptionally completed my matric, I then took a different root from science to accountancy which I did at Walter Sisulu University 'WSU' from 2015. I got to WSU from Ndaliso Senior Secondary School when I got most of the skills in science.</>
+        <p className='strong-p'><b>Bachelor of Commerce in Accounting </b></p>
+        <p>As soon as I exceptionally completed my matric, I then took a different root from science to accountancy which I did at Walter Sisulu University 'WSU' from 2015. I got to WSU from Ndaliso Senior Secondary School; Ndaliso is actually where I got most of the skills in science.</p>
       </div>
     </div>
   );
