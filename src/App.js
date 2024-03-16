@@ -8,6 +8,7 @@ import Education from './components/Education';
 import SoftwareDev from './components/SoftwareDev';
 import Accountacy from './components/Accountancy';
 import Entrepreneurship from './components/Entrepreneurship';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,15 +25,18 @@ function App() {
         <div className='Education'>
           <Education />
         </div>
-        <div className='Accountancy'>
+        <section className='Accountancy' id='accountancy'>
           <Accountacy />
-        </div>
-        <div className='Entrepreneurship'>
+        </section>
+        <section className='Entrepreneurship' id='entrepreneurship'>
           <Entrepreneurship />
-        </div>
-        <div className='SoftwareDev'>
+        </section>
+        <section className='SoftwareDev' id='software'>
           <SoftwareDev />
-        </div>
+        </section>
+        <section className='Footer'>
+          <Footer />
+        </section>
     </div>
   );
 }

@@ -13,12 +13,14 @@
     margin-left: 1vw;
     margin-bottom: 0.5em;
     overflow: hidden;
+    box-shadow: white 0.1em 0.1em 0.1em 0.1em;
 }
 .education-item h3
 {
     color:rgb(70, 193, 214);
-    margin: 0;
+    margin: 0.5em;
     font-size: xx-large;
+    text-align: right;
 }
 p {
     display: block;
@@ -29,5 +31,5 @@ p {
 .strong-p
 {
     font-size: large;
-    text-align: center;
+    text-align: right;
 }

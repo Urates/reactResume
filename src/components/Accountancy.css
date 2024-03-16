@@ -34,9 +34,10 @@
     border-left: black solid 1px;
     border-width: 80%;
 }
-.accountancy-container .item2 p,h2
+.accountancy-container .item2 h2
 {
     text-align: center;
+    color: black;
 }
 .accountancy-container .item3
 {
@@ -44,7 +45,7 @@
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: grey;
+    background-color: rgb(201, 201, 201);
 }
 .item3 img
 {
@@ -62,18 +63,23 @@
     text-align: center;
     padding-top: 10px;
 }
+.accountancy-container .item3 h2
+{
+    text-align: center;
+    color: black;
+}
 .accountancy-container .item4
 {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-color: grey;
+    background-color: rgb(209, 209, 209);
 }
 .item4 img
 {
-    width: 200px;
-    height: 200px;
+    width: 10em;
+    height: 10em;
     margin-left: 30%;
     margin-top: 10%;
     border: black solid 1px;
@@ -85,6 +91,11 @@
 {
     text-align: center;
     padding-top: 10px;
+}
+.accountancy-container .item4 h2
+{
+    text-align: center;
+    color: black;
 }
 #career-info
 {

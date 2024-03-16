@@ -13,7 +13,6 @@ const Entrepreneurship = () => {
             <img src={EntrepreneurshipImg} alt="Entrepreneurship icon"/>
          </div>
          <div className="item2">
-
             <h2>Entrepreneurship</h2>
             <p id="career-info">In my second year at Walter Sisulu University in 2016 I ventured into entrepreneurship which was already apparent in my talents and skill set. This was powered mainly by the gap I notice in how the current generation is intellectually wired versus how the current education system seeks to connect with the intellectual realm of human beings in schools.</p>
 
