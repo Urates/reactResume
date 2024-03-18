@@ -1,38 +1,37 @@
-.accountancy-container
+.software-container
 {
     margin: auto;
     position: relative;
     background-color: rgb(18, 43, 48);
-    height: 34em;
+    height: 35em;
     overflow: hidden;
 }
-.accountancy-container ul
+.software-container ul
 {
     list-style-type: none;
     padding: 0.5em;
 }
-.accountancy-container li
+.software-container li
 {
     display: block;
 }
-.accountancy-container p
+.software-container p
 {
     color: rgb(255, 255, 255);
 }
-.accountancy-container img
+.software-container img
 {
     width: 15em;
     height: 15em;
     margin-left: 2em;
 }
-.accountancy-container h2
+.software-container h2
 {
     color: rgb(255, 255, 255);
     position: relative;
     right: 1em;
+    width: 30em;
     margin-left: 30em;
-    text-align: right;
-    width: 10em;
 }
 #career-info
 {
@@ -46,8 +45,6 @@
     display: flex;
     position: relative;
     padding: 8em;
-    border-bottom: rgb(18, 43, 48) solid 0.2em ;
-    border-radius: 2em;
 }
 .row .item
 {
@@ -56,59 +53,58 @@
     background-color: rgba(115, 108, 108, 0.612);
     margin: auto;
     border-radius: 2em;
-    border: rgb(18, 43, 48) solid 0.2em;
-    position: relative;
-    top: 4em;
 }
 .row p
 {
-    color: rgb(18, 43, 48);
+    color: rgb(48, 45, 18);
 }
-ul h3
+h3
 {
-    width: 15em;
+    width: 30em;
     text-align: center;
     margin: auto;
     display: block;
     color: rgb(255, 255, 255);
 }
-#accounting
+#python
 {
-    background-image: url('../assets/financial-reporting.gif');
+    background-image: url('../assets/sais1.jpeg');
     background-repeat: none;
     background-position:center;
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.459);
     opacity: 0.4;
 }
-#manacc
+#java
 {
-    background-image: url('../assets/manacc.png');
+    background-image: url('../assets/sais1.jpeg');
     background-repeat: none;
     background-position:center;
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.459);
     opacity: 0.4;
 }
-#auditing
+#html
 {
-    background-image: url('../assets/auditing.png');
+    background-image: url('../assets/sais1.jpeg');
     background-repeat: none;
+    background-position:center;
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.459);
     opacity: 0.4;
 }
-#taxation
+#git
 {
-    background-image: url('../assets/taxation.jpg');
+    background-image: url('../assets/sais1.jpeg');
     background-repeat: none;
+    background-position:center;
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.459);
     opacity: 0.4;
 }
-#finance
+#javascript
 {
-    background-image: url('../assets/finance.gif');
+    background-image: url('../assets/sais1.jpeg');
     background-repeat: none;
     background-position:center;
     background-size: cover;

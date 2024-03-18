@@ -1,31 +1,31 @@
-.accountancy-container
+.entrepreneurship-container
 {
     margin: auto;
     position: relative;
-    background-color: rgb(18, 43, 48);
-    height: 34em;
+    background-color: rgb(48, 45, 18);
+    height: 35em;
     overflow: hidden;
 }
-.accountancy-container ul
+.entrepreneurship-container ul
 {
     list-style-type: none;
     padding: 0.5em;
 }
-.accountancy-container li
+.entrepreneurship-container li
 {
     display: block;
 }
-.accountancy-container p
+.entrepreneurship-container p
 {
     color: rgb(255, 255, 255);
 }
-.accountancy-container img
+.entrepreneurship-container img
 {
     width: 15em;
     height: 15em;
     margin-left: 2em;
 }
-.accountancy-container h2
+.entrepreneurship-container h2
 {
     color: rgb(255, 255, 255);
     position: relative;
@@ -46,8 +46,6 @@
     display: flex;
     position: relative;
     padding: 8em;
-    border-bottom: rgb(18, 43, 48) solid 0.2em ;
-    border-radius: 2em;
 }
 .row .item
 {
@@ -55,14 +53,20 @@
     width: 12em;
     background-color: rgba(115, 108, 108, 0.612);
     margin: auto;
-    border-radius: 2em;
-    border: rgb(18, 43, 48) solid 0.2em;
     position: relative;
     top: 4em;
 }
 .row p
 {
     color: rgb(18, 43, 48);
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    padding: 0.2em;
+    border-radius: 1em;
+    position: absolute;
+    bottom: 1em;
+    width: 10em;
 }
 ul h3
 {
@@ -72,43 +76,45 @@ ul h3
     display: block;
     color: rgb(255, 255, 255);
 }
-#accounting
+#presentation
 {
-    background-image: url('../assets/financial-reporting.gif');
+    background-image: url('../assets/presentation.gif');
     background-repeat: none;
     background-position:center;
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.459);
     opacity: 0.4;
 }
-#manacc
+#patenting
 {
-    background-image: url('../assets/manacc.png');
+    background-image: url('../assets/patenting.png');
     background-repeat: none;
     background-position:center;
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.459);
     opacity: 0.4;
 }
-#auditing
+#commercialisation
 {
-    background-image: url('../assets/auditing.png');
+    background-image: url('../assets/sais1.jpeg');
     background-repeat: none;
+    background-position:center;
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.459);
     opacity: 0.4;
 }
-#taxation
+#project-management
 {
-    background-image: url('../assets/taxation.jpg');
+    background-image: url('../assets/sais1.jpeg');
     background-repeat: none;
+    background-position:center;
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.459);
     opacity: 0.4;
 }
-#finance
+#research
 {
-    background-image: url('../assets/finance.gif');
+    background-image: url('../assets/sais1.jpeg');
     background-repeat: none;
     background-position:center;
     background-size: cover;

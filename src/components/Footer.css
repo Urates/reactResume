@@ -1,20 +1,18 @@
 .FooterContainer
 {
-  display: block;
+  display: inline;
   justify-content: center;
   text-align: center;
   z-index: 0;
-  position: relative;
+  width: 100vw;
+  
 }
 .FooterContainer ul{
   display: block;
+  width: 100vw;
 }
 .FooterContainer .footerItems
 {
-  list-style-type: none;
-  background-color: rgb(0, 0, 0);
-  display: flex;
-  position: absolute;
   top: 100vh;
   height: 30vh;
   z-index: 0;
@@ -22,9 +20,8 @@
 }
 .FooterContainer li
 {
-  display: flex;
-  flex-direction: column;
-  margin: 3em;
+  display: inline;
+  margin: 6em;
   background-color: rgb(255, 255, 255);
   width: 6em;
   height: 6em;
@@ -34,6 +31,7 @@
 .FooterContainer a
 {
   text-decoration: none;
+  display: inline-flex;
 }
 .FooterContainer a:hover
 {
@@ -44,21 +42,7 @@
 }
 .FooterContainer img
 {
-  width: 3em;
-  height: 3em;
-  margin: 1em;
-  align-items: center;
+  width: 5em;
+  height: 5em;
 }
- h2
-{
-  color: rgb(255, 248, 248);
-  position: relative;
-  background-color: white;
-  padding-left: 2em;
-  padding-right:2em;
-  border-radius: 2em;
-}
-#GetInTouch
-{
-  display: block;
-}
+

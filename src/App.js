@@ -28,7 +28,15 @@ function App() {
         <section className='Accountancy' id='accountancy'>
           <Accountacy />
         </section>
-      
+        <section className='Entrepreneurship' id='entrepreneurship'>
+          <Entrepreneurship />
+        </section>
+        <section className='SoftwareDev' id='software'>
+          <SoftwareDev />
+        </section>
+        <div className='Footer'>
+          <Footer />
+        </div>
     </div>
   );
 }

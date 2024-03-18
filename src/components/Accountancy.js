@@ -8,7 +8,7 @@ import './Accountancy.css';
 const Accountancy = () => {
   return (
     <div className="accountancy-container">
-         <ul className="item1">
+         <ul>
             <img src={AccountancyImg} alt="Accountancy calculator icon"/>
             <ul>
                <li><h2>Accountancy</h2></li>
@@ -18,14 +18,14 @@ const Accountancy = () => {
                </li>
             </ul>
             <ul>
-               <li><h3>Associated Projects</h3></li>
-               <div className="row">
-                  <span className="item"><p>co-founded my first company</p></span>
-                  <li className="item"><p>Project 2</p></li>
-                  <li className="item"><p>Project 3</p></li>
-                  <li className="item"><p>Project 4</p></li>
-                  <li className="item"><p>Project 4</p></li>
-               </div>
+               <li><h3>Associated Skills</h3></li>
+               <ul className="row">
+                  <li className="item" id="accounting"><p>Financial Reporting</p></li>
+                  <li className="item" id="manacc"><p>Managerial Acc.</p></li>
+                  <li className="item" id="auditing"><p>Auditing</p></li>
+                  <li className="item" id="taxation"><p>Taxation</p></li>
+                  <li className="item" id="finance"><p>Finance</p></li>
+               </ul>
             </ul>
          </ul>
       </ div>

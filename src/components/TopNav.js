@@ -15,7 +15,7 @@ function TopNav() {
 
       sections.forEach(sectionId => {
         const section = document.getElementById(sectionId);
-        if (section && section.getBoundingClientRect().top < window.innerHeight / 2) {
+        if (section && section.getBoundingClientRect().top < window.innerHeight/2) {
           activeSection = sectionId;
         }
       });

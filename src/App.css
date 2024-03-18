@@ -20,39 +20,40 @@
 .Background
 {
     position: absolute;
-    right: 1vw;
-    width: 40em;
+    right: 0.3em;
+    width: 42em;
     top: 10.5em;
 }
 .Education {
   position: absolute;
   background-color: rgb(0, 0, 0);
-  right: 1vw;
-  top: 28vw;
-  width: 46vw;
-  height: 33em;
+  right: 1em;
+  top: 23em;
+  width: 40em;
+  height: 29em;
 }
 .Accountancy
 {
-  position: relative;
-  top: 26em;
-  background-color: rgb(120, 134, 71);
+  position: absolute;
+  height: 20em;
+  top: 54em;
 }
 .Entrepreneurship
 {
-  position: relative;
-  top: 31em;
+  position: absolute;
+  top: 90em;
   background-color: rgb(79, 73, 97);
 }
 .SoftwareDev
 {
-  position: relative;
-  top: 32em;
+  position: absolute;
+  top: 127em;
   background-color: rgb(34, 68, 44);
+  width: 100vw;
 }
 .Footer
 {
   margin: auto;
-  position: relative;;
-  top: 0;
+  position: absolute;;
+  top: 127em;
 }

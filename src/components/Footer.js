@@ -6,7 +6,6 @@ import Instagram from '../assets/9.png';
 import X from '../assets/10.png';
 import Gmail from '../assets/gmail.png';
 import Location from '../assets/Location Icon.png';
-import Chat from '../assets/ChatBot.png';
 import './Footer.css';
 
   
@@ -15,7 +14,7 @@ const Footer = () => {
 
   <div className="FooterContainer">
           
-                    <ul className='footerItems'>
+                    <ul>
                         <li><a href='https://www.facebook.com/profile.php?id=100009275363960'><img src={Facebok} alt='Facebook' /></a></li>
                         <li><a href='https://www.linkedin.com/in/uviwe-makiva-5aa888146/'><img src={Linkedin} alt='Linkedin' /></a></li>
                         <li><a href='https://www.instagram.com/uviwe.makiva/'><img src={Instagram} alt='Instagram' /></a></li>
